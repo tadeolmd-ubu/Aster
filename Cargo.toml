@@ -1,7 +1,7 @@
 [workspace]
-resolver = "2"
-
 members = [
-    "crates/aster-core",
-    "crates/aster-ui",
+    "aster-core",
+    "aster-ui",
 ]
+
+resolver = "2"
