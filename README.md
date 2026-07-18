@@ -2,26 +2,22 @@
 
 ## Visión General del Proyecto
 
-El proyecto está desarrollado en **Rust**. La estructura inicial define puntos de entrada clave y componentes modulares definidos por sus archivos principales.
+Este proyecto está desarrollado utilizando **Rust**, un lenguaje de programación conocido por su seguridad y rendimiento.
 
-### Tecnologías Utilizadas
+### Tecnología Base
 
-| Tecnología | Descripción |
-| :--- | :--- |
-| **Rust** | Lenguaje de programación principal utilizado para el desarrollo del *backend* y la lógica de negocio. |
+*   **Lenguaje:** Rust
 
-### Archivos de Punto de Entrada
+### Archivos Principales
 
-Los siguientes archivos contienen la implementación principal de la lógica de la aplicación:
+La estructura inicial del proyecto incluye los siguientes archivos clave en Rust:
 
-| Tecnología | Archivo |
-| :--- | :--- |
-| Rust | `lib.rs` |
-| Rust | `main.rs` |
+*   `lib.rs`: Archivo principal para la biblioteca o módulo.
+*   `main.rs`: Archivo principal para el punto de entrada ejecutable de la aplicación.
 
 ## Estructura del Proyecto
 
-La siguiente estructura de directorios define la organización del repositorio.
+A continuación, se muestra el árbol de directorios que define la arquitectura de *repository*.
 
 ```
 repository/
@@ -33,24 +29,29 @@ repository/
 ├── README.md
 ├── ROADMAP.md
 ├── VISION.md
-├── aster-core              # Módulo de núcleo o lógica principal
+├── aster-core
 │   ├── Cargo.toml
 │   └── src
 │       └── lib.rs
-└── aster-ui                # Módulo de interfaz de usuario
-    ├── Cargo.toml
-    └── src
-        └── main.rs
+├── aster-ui
+│   ├── Cargo.toml
+│   └── src
+│       └── main.rs
+└── docs
+    ├── aster-core.md
+    ├── aster-ui.md
+    ├── repository.md
+    └── src.md
 ```
 
 ## Módulos y Componentes
 
-El proyecto está compuesto por varios módulos lógicos, cada uno con su propia estructura de archivos.
+La arquitectura está organizada en varios módulos, cada uno con su respectiva documentación y ubicación.
 
-| Módulo | Ruta Completa (Ejemplo) | Contenido de Archivos |
+| Módulo | Ruta de Acceso | Archivos Asociados |
 | :--- | :--- | :--- |
-| [`repository`](docs/repository.md) | `/home/tadeofed/temp/2026-07-18T22-27-08-294Z-Aster-git/repository` | 2 archivos |
-| [`aster-core`](docs/aster-core.md) | `/home/tadeofed/temp/2026-07-18T22-27-08-294Z-Aster-git/repository/aster-core` | 1 archivo |
-| [`src`](docs/src.md) | `/home/tadeofed/temp/2026-07-18T22-27-08-294Z-Aster-git/repository/aster-core/src` | 1 archivo |
-| [`aster-ui`](docs/aster-ui.md) | `/home/tadeofed/temp/2026-07-18T22-27-08-294Z-Aster-git/repository/aster-ui` | 1 archivo |
-| [`src`](docs/src.md) | `/home/tadeofed/temp/2026-07-18T22-27-08-294Z-Aster-git/repository/aster-ui/src` | 1 archivo |
+| **repository** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository` | 2 |
+| **aster-core** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-core` | 1 |
+| **src** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-core/src` | 1 |
+| **aster-ui** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-ui` | 1 |
+| **src** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-ui/src` | 1 |
