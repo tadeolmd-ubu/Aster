@@ -1,24 +1,14 @@
 # Module: aster-core
 
----
-
-### 🗂️ Ubicación del Módulo
-
-El módulo `aster-core` se encuentra en la siguiente ruta del sistema de archivos:
-
+**Ubicación del Módulo:**
 ```
-/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-core
+/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository/aster-core
 ```
 
----
+## Estructura de Archivos (File Structure)
 
-### 📁 Estructura de Archivos
+Esta tabla detalla los archivos incluidos en el módulo `aster-core` y su función específica dentro del proyecto.
 
-Esta sección detalla la organización interna y el propósito de los archivos clave que componen el módulo `aster-core`.
-
-| Archivo | Propósito | Descripción Técnica |
-| :--- | :--- | :--- |
-| `Cargo.toml` | Archivo de configuración | Define el manifiesto del proyecto de Rust. Contiene las dependencias, metadatos y configuraciones de compilación necesarias para el funcionamiento del módulo. |
-
----
-*(Nota: No se encontraron secciones de esquema de base de datos (Database Schema) en el contenido proporcionado.)*
+| Archivo | Propósito |
+| :--- | :--- |
+| `Cargo.toml` | Archivo de configuración del proyecto de Rust. Define las dependencias, metadatos del paquete y la estructura del proyecto para el compilador Cargo. |

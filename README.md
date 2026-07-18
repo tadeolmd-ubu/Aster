@@ -1,57 +1,61 @@
-# repository
+# Aster-git
 
-## Visión General del Proyecto
+## Resumen del Proyecto (Overview)
 
-Este proyecto está desarrollado utilizando **Rust**, un lenguaje de programación conocido por su seguridad y rendimiento.
+Este proyecto está construido utilizando **Rust**, una tecnología conocida por su seguridad de memoria y rendimiento.
 
-### Tecnología Base
+**Tecnologías Utilizadas:**
 
-*   **Lenguaje:** Rust
+| Tecnología | Tipo |
+| :--- | :--- |
+| Rust | Lenguaje principal de desarrollo. |
 
-### Archivos Principales
+**Distribución de Archivos Fuente:**
 
-La estructura inicial del proyecto incluye los siguientes archivos clave en Rust:
+Los archivos fuente principales se encuentran distribuidos en los siguientes módulos:
 
-*   `lib.rs`: Archivo principal para la biblioteca o módulo.
-*   `main.rs`: Archivo principal para el punto de entrada ejecutable de la aplicación.
+| Tecnología | Archivo | Descripción |
+| :--- | :--- | :--- |
+| Rust | `lib.rs` | Archivo de librería. |
+| Rust | `main.rs` | Punto de entrada principal de la aplicación. |
 
-## Estructura del Proyecto
+## Estructura del Proyecto (Project Structure)
 
-A continuación, se muestra el árbol de directorios que define la arquitectura de *repository*.
+La arquitectura del repositorio sigue una disposición modular, separando las responsabilidades centrales (core) de la interfaz de usuario (UI).
 
 ```
 repository/
-├── .gitignore
-├── ARCHITECTURE.md
-├── Cargo.lock
-├── Cargo.toml
-├── LICENSE
-├── README.md
-├── ROADMAP.md
-├── VISION.md
-├── aster-core
-│   ├── Cargo.toml
-│   └── src
-│       └── lib.rs
-├── aster-ui
-│   ├── Cargo.toml
-│   └── src
-│       └── main.rs
-└── docs
+├── .gitignore        # Ignora archivos de compilación o temporales.
+├── ARCHITECTURE.md   # Documenta la arquitectura del sistema.
+├── Cargo.lock        # Bloquea las versiones de las dependencias.
+├── Cargo.toml        # Archivo de configuración de dependencias y metadata del proyecto.
+├── LICENSE           # Archivo de licencia de código.
+├── README.md         # Descripción general del proyecto.
+├── ROADMAP.md        # Hoja de ruta de desarrollo.
+├── VISION.md         # Visión y objetivos a largo plazo.
+├── aster-core         # Módulo principal de lógica de negocio.
+│   ├── Cargo.toml    # Configuración del módulo core.
+│   └── src/
+│       └── lib.rs   # Lógica central.
+├── aster-ui           # Módulo encargado de la interfaz de usuario.
+│   ├── Cargo.toml    # Configuración del módulo UI.
+│   └── src/
+│       └── main.rs  # Punto de entrada de la interfaz de usuario.
+└── docs/              # Directorio dedicado a la documentación.
     ├── aster-core.md
     ├── aster-ui.md
     ├── repository.md
     └── src.md
 ```
 
-## Módulos y Componentes
+## Módulos del Proyecto (Modules)
 
-La arquitectura está organizada en varios módulos, cada uno con su respectiva documentación y ubicación.
+El proyecto se organiza en módulos lógicos, cada uno con sus respectivas rutas de documentación.
 
-| Módulo | Ruta de Acceso | Archivos Asociados |
+| Módulo | Ruta de Documentación | Archivos Asociados |
 | :--- | :--- | :--- |
-| **repository** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository` | 2 |
-| **aster-core** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-core` | 1 |
-| **src** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-core/src` | 1 |
-| **aster-ui** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-ui` | 1 |
-| **src** | `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-ui/src` | 1 |
+| [repository](docs/repository.md) | `/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository` | 2 |
+| [aster-core](docs/aster-core.md) | `/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository/aster-core` | 1 |
+| [src](docs/src.md) | `/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository/aster-core/src` | 1 |
+| [aster-ui](docs/aster-ui.md) | `/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository/aster-ui` | 1 |
+| [src](docs/src.md) | `/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository/aster-ui/src` | 1 |

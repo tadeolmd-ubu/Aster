@@ -1,21 +1,24 @@
+```markdown
 # Module: src
 
-**Ubicación del Módulo:** `/home/tadeofed/temp/2026-07-18T22-46-28-846Z-Aster-git/repository/aster-ui/src`
+---
 
-***
+**Ubicación del Módulo:**
+`/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository/aster-ui/src`
 
 ## Estructura de Archivos
 
-Este módulo contiene los archivos fuente principales del proyecto, encapsulando la lógica de la aplicación.
+Esta sección detalla los archivos contenidos en el módulo `src` y su propósito principal.
 
 | Archivo | Propósito |
 | :--- | :--- |
-| `main.rs` | Módulo principal escrito en Rust. Contiene el punto de entrada principal de la aplicación. |
+| `main.rs` | Módulo raíz de Rust. Contiene la lógica principal de ejecución del programa. |
 
-## Funciones y API
+## Funciones y Componentes
 
-Detalle de las funciones definidas dentro de los archivos de este módulo.
+A continuación, se presenta una lista de las funciones definidas dentro del módulo.
 
-| Nombre | Tipo | Asíncrono | Archivo |
+| Nombre | Tipo | Asíncrono | Archivo Fuente |
 | :--- | :--- | :--- | :--- |
-| `main` | Indefinido | No | `main.rs` |
+| `main` | undefined | No especificado | `main.rs` |
+```
