@@ -1,14 +1,13 @@
 # Module: aster-ui
 
-La siguiente sección detalla la estructura de archivos y componentes del módulo `aster-ui`.
+**Ruta de Ubicación:** `/home/tadeofed/Escritorio/temp/2026-07-18T23-15-38-567Z-Aster-git/repository/aster-ui`
 
-**Ruta del Repositorio:**
-`/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository/aster-ui`
+---
 
 ## Estructura de Archivos
 
-A continuación, se presenta una tabla con los archivos presentes en el directorio y su propósito.
+A continuación, se detalla la estructura de archivos y su propósito dentro del módulo.
 
-| Archivo | Descripción |
+| Archivo | Propósito |
 | :--- | :--- |
-| `Cargo.toml` | Archivo de manifiesto de Cargo. Contiene la configuración de dependencias, la versión del paquete y la metadata de compilación para el proyecto. |
+| `Cargo.toml` | Archivo de configuración y manifiesto del proyecto. |

@@ -1,14 +1,11 @@
 # Module: aster-core
 
-**Ubicación del Módulo:**
-```
-/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository/aster-core
-```
+**Ubicación:** `/home/tadeofed/Escritorio/temp/2026-07-18T23-15-38-567Z-Aster-git/repository/aster-core`
 
-## Estructura de Archivos (File Structure)
+## Estructura de Archivos
 
-Esta tabla detalla los archivos incluidos en el módulo `aster-core` y su función específica dentro del proyecto.
+La siguiente tabla detalla la estructura del módulo `aster-core` y la función de cada archivo.
 
 | Archivo | Propósito |
 | :--- | :--- |
-| `Cargo.toml` | Archivo de configuración del proyecto de Rust. Define las dependencias, metadatos del paquete y la estructura del proyecto para el compilador Cargo. |
+| `Cargo.toml` | Archivo de configuración principal de Cargo. Se utiliza para definir metadatos del proyecto y gestionar las dependencias. |

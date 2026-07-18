@@ -1,14 +1,14 @@
-# Módulo: repository
+# Module: repository
 
-**Ubicación:** `/home/tadeofed/temp/2026-07-18T22-58-21-866Z-Aster-git/repository`
+**Ubicación:** `/home/tadeofed/Escritorio/temp/2026-07-18T23-15-38-567Z-Aster-git/repository`
 
 ---
 
-## Estructura de Archivos
+## Estructura de Archivos (File Structure)
 
-Esta tabla detalla los archivos presentes en el repositorio, junto con su propósito funcional dentro del proyecto.
+Esta sección detalla los archivos fundamentales presentes en el módulo `repository` y su propósito dentro del proyecto.
 
-| Archivo | Propósito | Descripción |
-| :--- | :--- | :--- |
-| `Cargo.lock` | Bloqueo de dependencias | Contiene una lista exacta de las versiones de todas las dependencias utilizadas por el proyecto. Asegura la reproducibilidad del entorno de construcción. |
-| `Cargo.toml` | Manifiesto de dependencias | Archivo de configuración principal que define el nombre, la versión, las dependencias externas y otras propiedades del paquete Rust. |
+| Archivo | Propósito |
+| :--- | :--- |
+| `Cargo.lock` | Archivo de bloqueo de dependencias. |
+| `Cargo.toml` | Archivo de configuración y definición de metadatos del proyecto. |
