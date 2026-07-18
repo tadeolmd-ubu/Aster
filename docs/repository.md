@@ -1,14 +1,10 @@
 # Module: repository
 
-**Ubicación:** `/home/tadeofed/Escritorio/temp/2026-07-18T23-15-38-567Z-Aster-git/repository`
+**Ubicación:** `/home/tadeofed/temp/temp/2026-07-18T23-25-38-076Z-Aster-git/repository`
 
----
-
-## Estructura de Archivos (File Structure)
-
-Esta sección detalla los archivos fundamentales presentes en el módulo `repository` y su propósito dentro del proyecto.
+## Estructura de Archivos
 
 | Archivo | Propósito |
 | :--- | :--- |
-| `Cargo.lock` | Archivo de bloqueo de dependencias. |
-| `Cargo.toml` | Archivo de configuración y definición de metadatos del proyecto. |
+| `Cargo.lock` | Gestor de dependencias |
+| `Cargo.toml` | Metadatos y dependencias |
