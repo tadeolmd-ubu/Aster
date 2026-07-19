@@ -1,22 +1,23 @@
 # Aster-git
 
-## Overview
-
-### Tecnologías utilizadas
-
+## Tecnologías
 | Tecnología |
 | :--- |
 | Rust |
 
-### Archivos por tecnología
-
+## Archivos
 | Tecnología | Archivo |
 | :--- | :--- |
-| Rust | `lib.rs` |
-| Rust | `main.rs` |
+| Rust | lib.rs |
+| Rust | main.rs |
 
-## Project Structure
+## Información del Proyecto
+| Campo | Valor |
+| :--- | :--- |
+| Versión | 0.1.0 |
+| Edición | 2024 |
 
+## Estructura del Proyecto
 ```
 repository/
 ├── .gitignore
@@ -45,7 +46,6 @@ repository/
 ```
 
 ## Módulos
-
 | Módulo | Ruta | Archivos |
 | :--- | :--- | :--- |
 | [aster-core](docs/aster-core.md) | `aster-core` | 1 |

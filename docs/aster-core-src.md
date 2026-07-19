@@ -1,24 +1,22 @@
-```markdown
 # Module: aster-core-src
 
-**Ubicación:** `/home/tadeofed/temp/temp/2026-07-18T23-25-38-076Z-Aster-git/repository/aster-core/src`
+**Ubicación:** `/home/tadeofed/temp/temp/2026-07-18T23-49-18-738Z-Aster-git/repository/aster-core/src`
 
 ## Estructura de Archivos
 
 | Archivo | Propósito |
 | :--- | :--- |
-| `lib.rs` | Módulo en Rust |
+| `lib.rs` | Módulo de Rust |
 
 ## Funciones
 
 | Nombre | Tipo | Asíncrono | Archivo |
 | :--- | :--- | :--- | :--- |
-| `add` | `undefined` | | `lib.rs` |
-| `it_works` | `undefined` | | `lib.rs` |
+| `add` | indefinido | | `lib.rs` |
+| `it_works` | indefinido | | `lib.rs` |
 
 ## Exportaciones
 
 | Nombre | Tipo | Archivo |
 | :--- | :--- | :--- |
-| `add` | `function` | `lib.rs` |
-```
+| `add` | función | `lib.rs` |

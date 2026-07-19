@@ -1,9 +1,9 @@
-# Module: aster-core
+# aster-core
 
-**Ubicación:** `/home/tadeofed/temp/temp/2026-07-18T23-25-38-076Z-Aster-git/repository/aster-core`
+**Ubicación:** `/home/tadeofed/temp/temp/2026-07-18T23-49-18-738Z-Aster-git/repository/aster-core`
 
 ## Estructura de Archivos
 
 | Archivo | Propósito |
 | :--- | :--- |
-| `Cargo.toml` | cargotoml |
+| `Cargo.toml` | Define los metadatos y las dependencias del proyecto (cargotoml). |

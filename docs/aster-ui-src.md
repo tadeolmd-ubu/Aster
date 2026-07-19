@@ -1,6 +1,7 @@
+```markdown
 # Module: aster-ui-src
 
-**Ubicación:** `/home/tadeofed/temp/temp/2026-07-18T23-25-38-076Z-Aster-git/repository/aster-ui/src`
+**Ubicación:** `/home/tadeofed/temp/temp/2026-07-18T23-49-18-738Z-Aster-git/repository/aster-ui/src`
 
 ## Estructura de Archivos
 
@@ -12,4 +13,5 @@
 
 | Nombre | Tipo | Asíncrono | Archivo |
 | :--- | :--- | :--- | :--- |
-| main | indefinido | | `main.rs` |
+| main | undefined | | `main.rs` |
+```
