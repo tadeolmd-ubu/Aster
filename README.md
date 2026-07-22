@@ -1,12 +1,20 @@
-# Aster
+# Aster-git
 
 A native Linux process monitor and manager, built in Rust.
 
 Aster helps developers understand, monitor, and manage system processes with a fast, modern TUI interface.
 
-## Project Structure
+## Archivos
+| Tecnología | Archivo |
+| :--- | :--- |
+| Rust | lib.rs |
+| Rust | main.rs |
 
-Aster is organized as a Cargo workspace with two crates:
+## Información del Proyecto
+| Campo | Valor |
+| :--- | :--- |
+| Versión | 0.1.0 |
+| Edición | 2024 |
 
 - **`aster-core`** — Library crate containing all domain logic: process enumeration, system metrics, monitoring, and signal management.
 - **`aster-ui`** — Binary crate providing the terminal user interface (TUI).
