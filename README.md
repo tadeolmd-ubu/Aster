@@ -1,9 +1,8 @@
 # Aster-git
 
-## Tecnologías
-| Tecnología |
-| :--- |
-| Rust |
+A native Linux process monitor and manager, built in Rust.
+
+Aster helps developers understand, monitor, and manage system processes with a fast, modern TUI interface.
 
 ## Archivos
 | Tecnología | Archivo |
@@ -17,38 +16,21 @@
 | Versión | 0.1.0 |
 | Edición | 2024 |
 
-## Estructura del Proyecto
-```
-repository/
-├── .gitignore
-├── ARCHITECTURE.md
-├── Cargo.lock
-├── Cargo.toml
-├── LICENSE
-├── README.md
-├── ROADMAP.md
-├── VISION.md
-├── aster-core
-│   ├── Cargo.toml
-│   └── src
-│       └── lib.rs
-├── aster-ui
-│   ├── Cargo.toml
-│   └── src
-│       └── main.rs
-└── docs
-    ├── aster-core-src.md
-    ├── aster-core.md
-    ├── aster-ui-src.md
-    ├── aster-ui.md
-    ├── repository.md
-    └── src.md
+- **`aster-core`** — Library crate containing all domain logic: process enumeration, system metrics, monitoring, and signal management.
+- **`aster-ui`** — Binary crate providing the terminal user interface (TUI).
+
+## Build & Run
+
+```sh
+cargo run -p aster-ui
 ```
 
-## Módulos
-| Módulo | Ruta | Archivos |
-| :--- | :--- | :--- |
-| [aster-core](docs/aster-core.md) | `aster-core` | 1 |
-| [src](docs/aster-core-src.md) | `aster-core/src` | 1 |
-| [aster-ui](docs/aster-ui.md) | `aster-ui` | 1 |
-| [src](docs/aster-ui-src.md) | `aster-ui/src` | 1 |
+## Documentation
+
+- [VISION.md](VISION.md) — Project goals and philosophy.
+- [ARCHITECTURE.md](ARCHITECTURE.md) — Architectural decisions and module structure.
+- [ROADMAP.md](ROADMAP.md) — Planned features and milestones.
+
+## License
+
+MIT
